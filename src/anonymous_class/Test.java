@@ -1,0 +1,20 @@
+
+package anonymous_class;
+
+
+public class Test {
+    public static void main(String[] args) {
+         Person p=new Person(){
+        @Override
+        void display(){
+            System.out.println("Test class");
+        
+        }
+    }; // Anonymous class...
+    p.display();
+    
+        
+    }
+   
+    
+}
